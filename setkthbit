@@ -1,0 +1,14 @@
+ #include<bits/stdc++.h> 
+using namespace std; 
+
+ // } Driver Code Ends
+class Solution
+{
+public:
+    int setKthBit(int N, int K)
+    {
+        
+        return N |(1<<K) ;
+    }
+    
+};
